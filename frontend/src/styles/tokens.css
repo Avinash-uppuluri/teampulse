@@ -1,0 +1,67 @@
+/* =====================================================================
+   TEAMPULSE — DESIGN TOKENS
+   A project-operations tool: the palette reads like a control room —
+   calm slate surfaces, one working accent (signal teal) reserved for
+   actions, and status color used ONLY for health/priority meaning
+   (never decoratively). Codes and dates use a monospace face because
+   they are literally machine-readable identifiers, not styling.
+   ===================================================================== */
+
+:root {
+  /* -- Base surfaces -------------------------------------------------- */
+  --tp-bg: #EEF1EF;
+  --tp-surface: #FFFFFF;
+  --tp-surface-sunken: #F5F6F4;
+  --tp-border: #DDE1DD;
+  --tp-border-strong: #C7CCC6;
+
+  /* -- Ink -------------------------------------------------------------- */
+  --tp-ink: #1B2129;
+  --tp-ink-soft: #4B5560;
+  --tp-ink-faint: #808A85;
+
+  /* -- Working accent (actions, links, focus) --------------------------- */
+  --tp-accent: #0E6B5C;
+  --tp-accent-strong: #0A4F44;
+  --tp-accent-wash: #E3F0EC;
+
+  /* -- Status: health ---------------------------------------------------- */
+  --tp-health-green: #1E7A4C;
+  --tp-health-green-bg: #E4F3EA;
+  --tp-health-yellow: #A5730D;
+  --tp-health-yellow-bg: #FBF0DA;
+  --tp-health-red: #B23A32;
+  --tp-health-red-bg: #FBE7E5;
+
+  /* -- Status: priority ---------------------------------------------------- */
+  --tp-priority-low: #5B6670;
+  --tp-priority-medium: #2E6E8E;
+  --tp-priority-high: #A5730D;
+  --tp-priority-critical: #B23A32;
+
+  /* -- Type ----------------------------------------------------------------- */
+  --tp-font-ui: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --tp-font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+
+  --tp-text-xs: 0.75rem;
+  --tp-text-sm: 0.8125rem;
+  --tp-text-base: 0.9375rem;
+  --tp-text-md: 1.0625rem;
+  --tp-text-lg: 1.375rem;
+  --tp-text-xl: 1.875rem;
+  --tp-text-xxl: 2.5rem;
+
+  /* -- Shape & spacing ---------------------------------------------------- */
+  --tp-radius-sm: 4px;
+  --tp-radius-md: 8px;
+  --tp-radius-lg: 12px;
+  --tp-space-1: 4px;
+  --tp-space-2: 8px;
+  --tp-space-3: 12px;
+  --tp-space-4: 16px;
+  --tp-space-5: 24px;
+  --tp-space-6: 32px;
+  --tp-space-7: 48px;
+
+  --tp-shadow-card: 0 1px 2px rgba(27, 33, 41, 0.06), 0 1px 1px rgba(27, 33, 41, 0.04);
+}
